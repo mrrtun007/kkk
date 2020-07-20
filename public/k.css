@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    .clearfix{
+        clear: both;
+    }
+    .container{
+        width: 1667px;
+        margin: 0 auto;
+        background:black;
+    }
+    header{
+        text-align: left;
+        width: 1665px;
+        height: 100px;
+        background: #5a5c5c;
+        margin: 0 auto;
+    }
+    .tio{
+        margin-left: 30px;
+        margin-top: 25px;
+        float: left;
+        font-size: 50px;
+    }
+    section{
+        margin-top: 5px;
+        text-align: center;
+        width: 245px;
+        height: 623px;
+        background: whitesmoke;
+        float: left;
+    }   
+   aside{
+       margin-left: 5px;
+        margin-top: 5px;
+        width: 1412px;
+        height: 120px;
+        text-align: left;
+        background: whitesmoke;
+        float: left;
+   }
+   jpg1{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 470.6px;
+    height: 247px;
+       background: rgb(255, 255, 255);
+       float: left;
+   }
+   .textjpg1{
+       margin-left: 20px;
+       margin-top: 10px;
+       float: left;
+   }
+   .img1{
+       margin-top: 0px;
+       margin-left: 70px;
+       float: left;
+   }
+   .patt{
+       margin-left: 119px;
+       float: left;
+   }
+   jpg2{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 470.6px;
+    height: 247px;
+       background:rgb(255, 255, 255);
+       float: left;
+   }
+   jpg3{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 461px;
+    height: 247px;
+       background:  rgb(255, 255, 255);
+       float: left;
+   }
+   jpg4{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 470.6px;
+    height: 247px;
+       background: rgb(255, 255, 255);
+       float: left;
+   }
+   jpg5{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 470.6px;
+    height: 247px;
+       background: rgb(255, 255, 255);
+       float: left;
+   }
+   jpg6{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 461px;
+    height: 247px;
+       background: rgb(255, 255, 255);
+       float: left;
+   }
+    .brand1{
+        margin-top: 17px;
+       margin-left: 300px;
+       text-align:  left        ;
+       float: left;
+   }
+    .sh{
+       margin-top: 50px;
+       text-align:left;  
+       float: left;
+       margin-left: 90px; 
+   }
+   .sok{
+    margin-top: 50px;
+    text-align:left;   
+    margin-left: 90px;
+    float: left;
+   }
+   footer{
+       background: rgb(36, 35, 34);
+       margin-top: 50px;
+       margin-left: 0px;
+   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 245px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 27px 0 16px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #050505;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.button {
+    background-color: #37dbd3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 4px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.face{
+   font-size: 32px;
+   margin-left: 10; 
+   
+}
+.topnav{
+    margin-left: 500px;
+    text-align: center;
+    margin-top: -10px;
+    
+    float: left;
+}
+
+ 
+
+    
+    /*.ok{
+        width: 10px;
+    }
+    .ok h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .card-grid{
+        margin: 0 auto;
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(3,1tf);
+        grid-gap: 20px;
+        font-family: sans-serif;
+    }
+    .card-pd{
+        background-color: honeydew;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        padding: 2rem;
+
+    }
+    .card-pd img{
+        width: 100px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-pd .img-1{
+        display: block ;
+    }
+    .card-pd .img-2{
+        display: none;
+    }
+    .card-pd:hover .img-1{
+        display: none ;
+    }
+    .card-pd:hover .img-2{
+        display: block;
+    }
